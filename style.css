@@ -88,6 +88,10 @@
 }
 
 /* general styling */
+html,
+body{
+    height: 100%;
+}
 
 body{
     line-height: 1.5;
@@ -97,7 +101,7 @@ body{
     color: var(--clr-neutral-50);
 
     display: grid; 
-    min-height: 100dvh;
+    max-height: 100vh;
     place-items: center;
     margin: 1rem;
 }
